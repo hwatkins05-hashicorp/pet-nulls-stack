@@ -14,3 +14,10 @@ deployment "complex" {
     instances        = 3
   }
 }
+
+deployment "another-approvable" {
+  inputs = {
+    prefix           = "another-approvable"
+    instances        = 2
+  }
+}
