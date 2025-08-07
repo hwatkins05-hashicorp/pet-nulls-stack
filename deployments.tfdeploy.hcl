@@ -11,13 +11,13 @@ deployment "simple" {
 deployment "complex" {
   inputs = {
     prefix           = "complex"
-    instances        = 3
+    instances        = -1
   }
 }
 
 deployment "another-approvable" {
   inputs = {
-    prefix           = "another-approvable"
+    prefix           = "another"
     instances        = 2
   }
 }
