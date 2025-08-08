@@ -48,3 +48,7 @@ component "nulls" {
     null = provider.null.this
   }
 }
+
+component "pet" {
+  source = "./nulls"
+}
