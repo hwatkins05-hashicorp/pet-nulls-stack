@@ -22,9 +22,9 @@ deployment "another-approvable" {
   }
 }
 
-deployment "simple" {
-  inputs = {
-    prefix           = "simple"
-    instances        = 1
-  }
-}
+# deployment "simple" {
+#   inputs = {
+#     prefix           = "simple"
+#     instances        = 1
+#   }
+# }
