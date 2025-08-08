@@ -49,6 +49,6 @@ component "nulls" {
   }
 }
 
-component "pet" {
-  source = "./nulls"
-}
+# component "pet" {
+#   source = "./nulls"
+# }

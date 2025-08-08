@@ -21,3 +21,10 @@ deployment "another-approvable" {
     instances        = 2
   }
 }
+
+deployment "simple" {
+  inputs = {
+    prefix           = "simple"
+    instances        = 1
+  }
+}
