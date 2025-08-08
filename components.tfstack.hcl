@@ -19,10 +19,19 @@ required_providers {
     source  = "hashicorp/null"
     version = "~> 3.2.2"
   }
+
+  tfe = {
+    source = "hashicorp/tfe"
+    version = "0.68.2"
+  }
 }
 
 provider "random" "this" {}
 provider "null" "this" {}
+provider "tfe" "this" {
+  # hostname = var.hostname
+  # token    = var.token
+}
 
 component "pet" {
   source = "./pet"
