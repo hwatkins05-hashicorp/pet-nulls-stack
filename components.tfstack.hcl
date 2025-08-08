@@ -22,7 +22,7 @@ required_providers {
 
   tfe = {
     source = "hashicorp/tfe"
-    version = "0.68.2"
+    version = "~>0.68.2"
   }
 }
 
@@ -30,7 +30,7 @@ provider "random" "this" {}
 provider "null" "this" {}
 provider "tfe" "this" {
   # hostname = var.hostname
-  # token    = var.token
+  token = var.token
 }
 
 component "pet" {
