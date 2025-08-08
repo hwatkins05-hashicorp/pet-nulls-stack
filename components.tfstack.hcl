@@ -30,7 +30,7 @@ provider "random" "this" {}
 provider "null" "this" {}
 provider "tfe" "this" {
   # hostname = var.hostname
-  token = var.token
+  # token = var.token
 }
 
 component "pet" {
